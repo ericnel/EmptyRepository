@@ -24,5 +24,6 @@ class Greeter {
 window.onload = () => {
     var el = document.getElementById('content');
     var greeter = new Greeter(el);
+    var unused = "unused";
     greeter.start();
 };
